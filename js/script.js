@@ -39,8 +39,8 @@ function setupTrigges() {
 }
 
 function clearOptions(id) {
-    const timeframeSelect = document.querySelector(".select-wrapper:nth-of-type(2) select");
-    const modeSelect = document.querySelector(".select-wrapper:nth-of-type(3) select");
+    const timeframeSelect = document.querySelector("body > div.controls > div.menu > div:nth-child(1) > select");
+    const modeSelect = document.querySelector("body > div.controls > div.menu > div:nth-child(2) > select");
 
     if (id == 1)
         while (timeframeSelect.firstChild) {
