@@ -1,0 +1,46 @@
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  .select-option {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+    background:white;
+    display:block;
+    width:20px;
+    height:40px;
+    border:2px solid black;
+  }
+  
+  /* Remove arrow from select elements in IE */
+  ::-ms-expand {
+    display: none;
+  }
+  
+  .select-wrapper {
+    overflow: hidden;
+    display:inline-block;
+    border: 1px solid #c8c8c8;
+    background:transparent;
+    padding: 0;
+    height: 50px;
+    width: 100%;
+    min-width: 80px;
+    border-radius: 15px;
+  }
+  
+  .select-wrapper select {
+    background: transparent;
+    font-weight: 400;
+    font-size: 12pt;
+    color: black;
+    font-family: 'Open Sans Regular', Arial, Arial;
+    border-radius: 0;
+    padding: 0 0 0 1.25em;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }

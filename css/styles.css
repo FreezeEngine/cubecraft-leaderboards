@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('./fonts/MinecraftRegular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* .background {
+    background-image: url("background.jpg");
+
+    filter: blur(12.5px);
+    -webkit-filter: blur(12.5px);
+
+    height: 100%;
+    width: 100%;
+
+    background-position: center;
+    background-repeat:space;
+    background-size: cover;
+} */
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls {
+    max-width: 540px;
+    padding: 20px 20px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.leaderboard_background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    max-width: 540px;
+    margin: 20px;
+    padding: 20px;
+    background: #44484f;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.leaderboard_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #87888a;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.skin_render {
+    float: left;
+    margin-left: 10px;
+    width: 64px;
+    height: 64px;
+    min-width: 64px;
+    min-height: 64px;
+    border-radius: 8px;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.67));
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+h2 {
+    font-size: 16pt;
+}
+
+h3 {
+    font-size: 12pt;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Minecraft';
+    color: white;
+    margin: 0px;
+    text-shadow: none;
+}
