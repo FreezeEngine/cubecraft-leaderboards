@@ -1,13 +1,13 @@
 async function load() {
-    window.leaderboards = await (await fetch('/data/leaderboards.json')).json()
+    window.leaderboards = await (await fetch('/cubecraft-leaderboards/data/leaderboards.json')).json()
         .catch(function () {
             this.dataError = true;
         })
-    window.player_renders = await (await fetch('/data/player_renders.json')).json()
+    window.player_renders = await (await fetch('/cubecraft-leaderboards/data/player_renders.json')).json()
         .catch(function () {
             this.dataError = true;
         })
-    window.players = await (await fetch('/data/players.json')).json()
+    window.players = await (await fetch('/cubecraft-leaderboards/data/players.json')).json()
         .catch(function () {
             this.dataError = true;
         })
